@@ -20,7 +20,7 @@ const ECPoint = typeforce.quacksLike('Point')
 
 // exposed, external API
 const Network = typeforce.compile({
-  messagePrefix: typeforce.oneOf(typeforce.Buffer, typeforce.String),
+  //messagePrefix: typeforce.oneOf(typeforce.Buffer, typeforce.String),
   bip32: {
     public: typeforce.UInt32,
     private: typeforce.UInt32
